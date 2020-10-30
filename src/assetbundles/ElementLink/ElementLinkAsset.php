@@ -1,6 +1,6 @@
 <?php
 
-namespace marionnewlevant\elementlink\assetbundles\elementlink;
+namespace marionnewlevant\elementlink\assetbundles\ElementLink;
 
 use Craft;
 use craft\web\AssetBundle;
@@ -36,7 +36,7 @@ class ElementLinkAsset extends AssetBundle
     public function init()
     {
         // define the path that your publishable resources live
-        $this->sourcePath = "@marionnewlevant/elementlink/assetbundles/elementlink/dist";
+        $this->sourcePath = "@marionnewlevant/elementlink/assetbundles/ElementLink/dist";
 
         // define the dependencies
         $this->depends = [
